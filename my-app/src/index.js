@@ -5,10 +5,11 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter } from 'react-router-dom';
 
+import SideMenu from './components/SideMenu'
 
 ReactDOM.render(
   <BrowserRouter>
-    <App />
+    <SideMenu />
   </BrowserRouter>
 , document.getElementById('root'));
 registerServiceWorker();
