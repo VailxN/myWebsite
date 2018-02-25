@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Menu } from 'semantic-ui-react'
 
-export default class SideMenu extends Component {
+export default class TopMenu extends Component {
   state = { activeItem: 'home' }
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
@@ -19,4 +19,4 @@ export default class SideMenu extends Component {
   }
 }
 
-export { SideMenu }
+export { TopMenu }
