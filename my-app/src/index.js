@@ -10,7 +10,7 @@ import TopMenu from './components/TopMenu'
 
 ReactDOM.render(
   <BrowserRouter>
-    <TopMenu />
+    <App />
   </BrowserRouter>
 , document.getElementById('root'));
 registerServiceWorker();
