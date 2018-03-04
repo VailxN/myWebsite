@@ -24,14 +24,14 @@ class App extends Component {
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/topics">Projects</Link>
+            <Link to="/projects">Projects</Link>
           </li>
         </ul>
         <hr />
 
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
-        <Route path="/topics" component={Projects} />
+        <Route path="/projects" component={Projects} />
       </div>
     );
   }

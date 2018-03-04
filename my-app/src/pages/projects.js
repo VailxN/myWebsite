@@ -3,6 +3,14 @@ import { Card, Image } from 'semantic-ui-react'
 
 import kaggle from '../resources/Kaggle_logo.png'
 
+// class project extends Component {
+//   render() {
+//     return (
+      
+//     );
+//   }
+// }
+
 export default class projects extends Component {
   render() {
     return (
