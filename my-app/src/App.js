@@ -5,14 +5,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import Home from './pages/home'
 import Projects from './pages/projects'
-
-const About = () => (
-  <div>
-    <h2>About</h2>
-    <p>My name is Norman</p>
-  </div>
-);
-
+import About from './pages/about'
 
 class App extends Component {
   render() {

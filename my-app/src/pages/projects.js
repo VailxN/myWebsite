@@ -6,7 +6,7 @@ import kaggle from '../resources/Kaggle_logo.png'
 export default class projects extends Component {
   render() {
     return (
-      <div className="App">        
+      <div>        
         <Card>
           <Image src={kaggle}/>
           <Card.Content>
