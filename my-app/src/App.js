@@ -3,9 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-import Home from './pages/home'
-import Projects from './pages/projects'
-import About from './pages/about'
+import home from './pages/home'
+import projects from './pages/projects'
+import about from './pages/about'
 
 class App extends Component {
   render() {
@@ -29,9 +29,9 @@ class App extends Component {
         </ul>
         <hr />
 
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/projects" component={Projects} />
+        <Route exact path="/" component={home} />
+        <Route path="/about" component={about} />
+        <Route path="/projects" component={projects} />
       </div>
     );
   }

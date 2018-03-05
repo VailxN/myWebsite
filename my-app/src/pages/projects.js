@@ -3,7 +3,7 @@ import ProjectCard from './../components/ProjectCard'
 
 import kaggle from './../resources/Kaggle_logo.png'
 
-export default class Home extends Component {
+export default class projects extends Component {
   render() {
     return (
       <div>
@@ -13,4 +13,4 @@ export default class Home extends Component {
   }
 }
 
-export { Home };
+// export { Home };

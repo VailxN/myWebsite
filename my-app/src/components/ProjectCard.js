@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Card, Image } from 'semantic-ui-react'
 
-export default class Project extends React.Component {
+export default class ProjectCard extends React.Component {
   render() {
     return (
         <Card>
