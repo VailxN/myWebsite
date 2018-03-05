@@ -7,14 +7,17 @@ import home from './pages/home'
 import projects from './pages/projects'
 import about from './pages/about'
 
+import TopMenu from './components/TopMenu'
+
 class App extends Component {
   render() {
     return (
       <div className="App">        
-        <header className="App-header">
+        <TopMenu />
+        {/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to My Website</h1>
-        </header>
+        </header> */}
  
         <ul>
           <li>
