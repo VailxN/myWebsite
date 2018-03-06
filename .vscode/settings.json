@@ -1,0 +1,22 @@
+{
+  "window.zoomLevel": 2,
+  "extensions.ignoreRecommendations": false,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorCustomizations": {
+      "editor.background": "#000000",
+      "editor.lineHighlightBackground": "#333333"
+      // "editor.wordHighlightBackground": "#222222"
+  },
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "git.enableSmartCommit": true,
+  "workbench.panel.location": "right",
+  "editor.tabSize": 2,
+  "[javascriptreact]": {
+    
+  },
+  "files.associations": {
+    "*.js": "javascriptreact"
+  }
+}

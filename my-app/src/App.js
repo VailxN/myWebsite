@@ -8,17 +8,21 @@ import home from './pages/home'
 import projects from './pages/projects'
 import about from './pages/about'
 
-import MenuItem from './components/MenuItem'
+import MenuItems from './components/MenuItems'
 
 class App extends Component {
+  state = {
+    menu: [
+      {name: 'home', link: '/'},
+      {name: 'about', link: '/about'},
+      {name: 'projects', link: '/projects'}
+    ]
+  }
+
   render() {
     return (
       <div className="App">  
-        <Menu pointing secondary>
-          <MenuItem to='/' name='home'/>
-          <MenuItem to='/about' name='about'/>
-          <MenuItem to='/projects' name='projects'/>
-        </Menu>      
+        <MenuItems items={this.state.menu} />
         {/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to My Website</h1>
