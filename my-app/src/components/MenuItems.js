@@ -18,8 +18,8 @@ export default class MenuItems extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu pointing secondary>
-        {this.props.items.map(obj => {
+      <Menu pointing secondary size='massive'>
+        {this.props.data.map(obj => {
           return ( 
             <Link key={obj.name} to={obj.link}>
               <Menu.Item name={obj.name} active={activeItem === obj.name} onClick={this.handleItemClick} />

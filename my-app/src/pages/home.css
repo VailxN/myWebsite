@@ -1,0 +1,5 @@
+.home {
+  background-image: url("../resources/homeBackground.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}

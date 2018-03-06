@@ -26,3 +26,16 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.content {
+  background-color: red;
+  align-items: center;
+  margin-left: auto!important;
+  margin-right: auto!important; 
+}
+
+.menu {
+  width: 1000px;
+  margin-left: auto!important;
+  margin-right: auto!important;
+}

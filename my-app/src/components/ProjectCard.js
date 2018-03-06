@@ -5,18 +5,18 @@ export default class ProjectCard extends React.Component {
   render() {
     return (
         <Card>
-          <Image src={this.props.thumbnail} />
+          <Image src={this.props.data.thumbnail} />
           <Card.Content>
             <Card.Header>
-              {this.props.title}
+              {this.props.data.title}
           </Card.Header>
             <Card.Meta>
               <span className='date'>
-                {this.props.subtitle}
+                {this.props.data.subtitle}
               </span>
             </Card.Meta>
             <Card.Description>
-              {this.props.description}
+              {this.props.data.description}
           </Card.Description>
           </Card.Content>
         </Card>
