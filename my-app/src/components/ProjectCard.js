@@ -11,7 +11,7 @@ export default class ProjectCard extends React.Component {
               {this.props.data.title}
           </Card.Header>
             <Card.Meta>
-              <span className='date'>
+              <span>
                 {this.props.data.subtitle}
               </span>
             </Card.Meta>

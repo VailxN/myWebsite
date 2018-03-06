@@ -11,7 +11,7 @@ export default class projects extends Component {
   render() {
     return (
       <div>
-        <ProjectCard data={this.state.kaggle}/>
+        <ProjectCard data={this.state.kaggle} />
       </div>
     );
   }

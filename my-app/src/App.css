@@ -29,9 +29,10 @@
 
 .content {
   background-color: red;
+  margin: auto;
+  padding: 30px;
+  display: flex;
   align-items: center;
-  margin-left: auto!important;
-  margin-right: auto!important; 
 }
 
 .menu {
