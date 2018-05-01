@@ -6,8 +6,8 @@ import homeBackground from '../resources/homeBackground.jpeg'
 export default class Home extends Component {
   render() {
     return (
-      <div className='home' style={{height: 10000}}>
-        <Image src={homeBackground} fluid />
+      <div className='home' style={{height: 10000}} >
+        {/* <Image src={homeBackground} fluid /> */}
       </div>
     );
   }
