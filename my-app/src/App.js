@@ -6,9 +6,9 @@ import Home from './pages/home'
 import Projects from './pages/projects'
 import About from './pages/about'
 
-import MenuItems from './components/MenuItems'
+import Menu from './components/Menu'
 
-const menu = [
+const menuItems = [
   { name: 'home', link: '/' },
   { name: 'about', link: '/about' },
   { name: 'projects', link: '/projects' }
@@ -21,7 +21,7 @@ export default class App extends Component {
     return (
       <div>
         <div className="menu" >
-          <MenuItems data={menu} />
+          <Menu data={menuItems} />
         </div>
 
         <div className="content">

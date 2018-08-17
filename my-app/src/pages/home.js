@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image } from 'semantic-ui-react';
+import { Image } from 'semantic-ui-react/dist/commonjs';
 import './home.css'
 import homeBackground from '../resources/homeBackground.jpeg'
 

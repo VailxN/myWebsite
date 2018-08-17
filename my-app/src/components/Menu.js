@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import { Menu } from 'semantic-ui-react'
+import { Menu } from 'semantic-ui-react/dist/commonjs'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-export default class MenuItems extends Component {
+export default class NormanMenu extends Component {
   constructor() {
     super();
     this.handleItemClick = this.handleItemClick.bind(this);

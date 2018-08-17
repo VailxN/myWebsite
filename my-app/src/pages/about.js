@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Header } from 'semantic-ui-react'
+import { Header } from 'semantic-ui-react/dist/commonjs'
 
 export default class About extends Component {
   render() {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ProjectCard from './../components/ProjectCard'
+import ProjectCard from '../components/ProjectCard'
 
 import kaggle from './../resources/Kaggle_logo.png'
 
