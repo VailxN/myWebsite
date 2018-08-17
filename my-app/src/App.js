@@ -8,20 +8,20 @@ import About from './pages/about'
 
 import MenuItems from './components/MenuItems'
 
+const menu = [
+  { name: 'home', link: '/' },
+  { name: 'about', link: '/about' },
+  { name: 'projects', link: '/projects' }
+]
+
 export default class App extends Component {
-  state = {
-    menu: [
-      { name: 'home', link: '/' },
-      { name: 'about', link: '/about' },
-      { name: 'projects', link: '/projects' }
-    ]
-  }
+  state = {}
 
   render() {
     return (
       <div>
         <div className="menu" >
-          <MenuItems data={this.state.menu} />
+          <MenuItems data={menu} />
         </div>
 
         <div className="content">
