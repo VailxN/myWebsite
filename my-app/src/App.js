@@ -7,11 +7,13 @@ import Projects from './pages/projects'
 import About from './pages/about'
 
 import Menu from './components/Menu'
+import Contact from './pages/contact';
 
 const menuItems = [
   { name: 'home', link: '/' },
   { name: 'about', link: '/about' },
-  { name: 'projects', link: '/projects' }
+  { name: 'projects', link: '/projects' },
+  { name: 'contact', link: '/contact' }
 ]
 
 export default class App extends Component {
@@ -28,6 +30,7 @@ export default class App extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
+          <Route path="/contact" component={Contact} />
         </div>
       </div>
     );
