@@ -21,7 +21,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="app" >
         <div className="menu" >
           <Menu data={menuItems} />
         </div>
