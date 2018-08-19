@@ -1,9 +1,9 @@
-.app {
+.App {
   text-align: center;
   background-color: slategray;
 }
 
-.App-logo {
+/* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
@@ -26,9 +26,9 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
+} */
 
-.content {
+.Content {
   /* background-color: red; */
   margin: auto;
   padding: 30px;
@@ -36,8 +36,8 @@
   align-items: center;
 }
 
-.menu {
-  width: 1000px;
+.Menu {
+  width: 100%;
   margin-left: auto!important;
   margin-right: auto!important;
 }

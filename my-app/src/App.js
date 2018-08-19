@@ -21,12 +21,12 @@ export default class App extends Component {
 
   render() {
     return (
-      <div className="app" >
-        <div className="menu" >
+      <div className="App" >
+        <div className="Menu" >
           <Menu data={menuItems} />
         </div>
 
-        <div className="content">
+        <div className="Content">
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
