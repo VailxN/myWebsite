@@ -1,11 +1,11 @@
 import React from 'react'
-import { Icon, Header } from 'semantic-ui-react'
+import { Icon } from 'semantic-ui-react'
 
 import './InfoBox.css'
 
-const InfoIcon = (props) => <Icon className='InfoIcon' disabled name={props.iconName} />
+const InfoIcon = (props) => <Icon size='big' disabled name={props.iconName} className='InfoIcon' />
 
-const InfoTitle = (props) => <Header className='InfoTitle' size='medium'>{props.title}</Header>
+const InfoTitle = (props) => <h2 className='InfoTitle'>{props.title}</h2>
 
 const InfoContent = (props) => <p className='InfoContent' >{props.content}</p>
 
