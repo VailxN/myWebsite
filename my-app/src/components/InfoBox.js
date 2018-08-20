@@ -5,7 +5,7 @@ import './InfoBox.css'
 
 const InfoIcon = (props) => <Icon size='big' disabled name={props.iconName} className='InfoIcon' />
 
-const InfoTitle = (props) => <h2 className='InfoTitle'>{props.title}</h2>
+const InfoTitle = (props) => <p className='InfoTitle'>{props.title}</p>
 
 const InfoContent = (props) => <p className='InfoContent' >{props.content}</p>
 
